@@ -54,7 +54,9 @@ public class MainClass {
                 
                 System.out.println(response.toString()); // 음성을 문자로 출력
                 
-            } 
+            } else {
+                System.out.println("error !!!");
+            }
         } catch (Exception e) {
             System.out.println(e);
         }
